@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<VehicleRaidFramework.VRF_SettlementVehicleDef> <!-- You won't get lost here, it's almost the same as the incident notes  -->
+		<defName>RH2_DOOM_BountyHunters_SettlementVehicles</defName>
+		<faction>RH2_DOOM_BountyHunters</faction>
+		<totalCombatPoints>4000</totalCombatPoints> <!-- The narrator has points to buy your vehicles based on the combat power you set in loaddefvehicle  -->
+		<vehicles>
+			<li> 
+				<vehicleKind>DMS_Chelydridae_MainBattleTank_RH2BountyHunters_NPC_Kind</vehicleKind>
+				<!-- <forceCount>0</forceCount>  -->
+				<weight>30</weight>
+
+				<!--
+				<colorConfig>
+					<mode>Fixed</mode>
+					<colorOne>(0.2, 0.2, 0.8)</colorOne>
+					<colorTwo>(0.1, 0.1, 0.5)</colorTwo>
+					<colorThree>(0.9, 0.9, 0.9)</colorThree>
+					<pattern>Tiger</pattern>
+				</colorConfig>
+				-->
+
+
+				<colorConfig>
+					<mode>Faction</mode>
+					<pattern>Woodland</pattern>
+				</colorConfig>
+
+
+				<cargoItems>
+					<li><thingDef>Chemfuel</thingDef><count>300</count></li>
+					<li><thingDef>MealSurvivalPack</thingDef><count>10</count></li>
+					<li><thingDef>Steel</thingDef><count>600</count></li>
+					<li><thingDef>Uranium</thingDef><count>70</count></li>
+				</cargoItems>
+			</li>
+
+
+		</vehicles>
+	</VehicleRaidFramework.VRF_SettlementVehicleDef>
+
+</Defs>

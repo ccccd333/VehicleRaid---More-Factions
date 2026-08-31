@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.label>装甲車両による侵略(RH2_DOOM_BountyHunters)</VRF_RH2_DOOM_BountyHunters_VehicleAssault.label>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.description>こちらの陣営よりも厚い装甲に守られている。背後が弱点だ。</VRF_RH2_DOOM_BountyHunters_VehicleAssault.description>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.modExtensions.0.letterLabel>装甲車両による侵略</VRF_RH2_DOOM_BountyHunters_VehicleAssault.modExtensions.0.letterLabel>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.modExtensions.0.letterText>{0}から装甲車両と共に侵略してきた。車両は手あたり次第に破壊していく。</VRF_RH2_DOOM_BountyHunters_VehicleAssault.modExtensions.0.letterText >
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.arrivalTextFriendly>{0}の車両部隊があなたを支援するために到着しました！</VRF_RH2_DOOM_BountyHunters_VehicleAssault.arrivalTextFriendly>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.arrivalTextEnemy>{0}の機甲部隊が接近しています！重装備車両を用いてあなたの防衛線を突破しようとしています.</VRF_RH2_DOOM_BountyHunters_VehicleAssault.arrivalTextEnemy>
+  <VRF_RH2_DOOM_BountyHunters_VehicleAssault.letterLabelEnemy>装甲車両による侵略</VRF_RH2_DOOM_BountyHunters_VehicleAssault.letterLabelEnemy>
+</LanguageData>

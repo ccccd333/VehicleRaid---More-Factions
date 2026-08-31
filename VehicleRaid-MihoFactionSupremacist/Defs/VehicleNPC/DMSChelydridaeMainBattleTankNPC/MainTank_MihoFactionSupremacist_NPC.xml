@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Here you can modify the turret of the raid NPC vehicle; remember to change the turret's <defName>, it's a little further down. -->
+<Defs> <!--  -->
+
+  <!-- 主砲的Def -->
+  <Vehicles.VehicleTurretDef ParentName="DMS_BaseTurret">
+    <defName>Chelydridae_Tank_Miho_Faction_Supremacist_NPC_Turret</defName>
+    <label>main turret</label>
+    <gizmoIconTexPath>Things/Vehicles/Chelydridae/mainTurret_gizmo</gizmoIconTexPath>
+    <gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 120mm Cannon Shell</gizmoDescription>
+    <!-- 砲塔的渲染顯示 -->
+    <graphicData>
+      <texPath>Things/Vehicles/Chelydridae/vehicle_turretTop</texPath>
+      <drawSize>9</drawSize>
+    </graphicData>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>Things/Vehicles/Chelydridae/vehicle_turretTop_barrel</texPath>
+          <drawSize>9</drawSize>
+          <drawOffset>(0,0,0)</drawOffset>
+          <graphicClass>Vehicles.Graphic_Turret</graphicClass>
+          <shaderType>CutoutComplexPattern</shaderType>
+        </graphicData>
+        <recoil>
+          <distanceTotal>0.5</distanceTotal>
+          <distancePerTick>0.025</distancePerTick>
+          <speedMultiplierPostRecoil>0.1</speedMultiplierPostRecoil>
+        </recoil>
+      </li>
+    </graphics>
+    <!-- 彈藥與裝填容量相關 -->
+    <reloadTimer>6.5</reloadTimer>
+    <magazineCapacity>5</magazineCapacity>
+    <chargePerAmmoCount>25</chargePerAmmoCount>
+    <genericAmmo>true</genericAmmo>
+    <projectile>DMS_Bullet_ChelydridaeShell</projectile>
+    <ammunition>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </ammunition>
+    <!-- 射程與射界相關 -->
+    <minRange>1</minRange>
+    <maxRange>60.9</maxRange>
+    <rotationSpeed>10</rotationSpeed>
+    <!-- 射擊相關 -->
+    <warmUpTimer>4</warmUpTimer>
+    <shotSound>DMS_Shot_MBTCannonSound</shotSound>
+    <reloadSound>DMS_Reload_MBTCannonSound</reloadSound>
+    <projectileOffset>5</projectileOffset>
+    <!-- 出膛前後偏移，主要是能讓子彈能從炮口飛出去 -->
+    <projectileShifting>
+      <li>0</li>
+    </projectileShifting>
+    <!-- 射擊模式 -->
+    <fireModes>
+      <li>
+        <shotsPerBurst>1</shotsPerBurst>
+        <ticksBetweenBursts>1</ticksBetweenBursts>
+        <forcedMissRadius>2</forcedMissRadius>
+        <label>Single Shot</label>
+        <texPath>UI/Gizmos/FireRate_Single</texPath>
+      </li>
+    </fireModes>
+    <motes>
+      <li>
+        <cycles>1</cycles>
+        <moteDef>Mote_CannonPlume</moteDef>
+        <animationType>Reset</animationType>
+        <offset>(0,0,5)</offset>
+      </li>
+    </motes>
+  </Vehicles.VehicleTurretDef>
+
+<Vehicles.VehicleTurretDef ParentName="DMS_BaseTurret">
+    <defName>Chelydridae_Tank_Miho_Faction_Supremacist_NPC_Turret_B</defName>
+    <label>main turret</label>
+    <gizmoIconTexPath>Things/Vehicles/Chelydridae/125mm/mainTurret_gizmo</gizmoIconTexPath>
+    <gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 125mm Cannon Shell</gizmoDescription>
+    <!-- 砲塔的渲染顯示 -->
+    <graphicData>
+      <texPath>Things/Vehicles/Chelydridae/125mm/vehicle_turretTop</texPath>
+      <drawSize>9</drawSize>
+    </graphicData>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>Things/Vehicles/Chelydridae/125mm/vehicle_turretTop_barrel</texPath>
+          <drawSize>4.5</drawSize>
+          <drawOffset>(0,0,2.5)</drawOffset>
+          <graphicClass>Vehicles.Graphic_Turret</graphicClass>
+          <shaderType>CutoutComplexPattern</shaderType>
+          <!-- <layer>1</layer> -->
+        </graphicData>
+        <recoil>
+          <distanceTotal>0.8</distanceTotal>
+          <distancePerTick>0.1</distancePerTick>
+          <speedMultiplierPostRecoil>0.05</speedMultiplierPostRecoil>
+        </recoil>
+      </li>
+    </graphics>
+    <!-- 彈藥與裝填容量相關 -->
+    <reloadTimer>6.5</reloadTimer>
+    <magazineCapacity>5</magazineCapacity>
+    <chargePerAmmoCount>25</chargePerAmmoCount>
+    <genericAmmo>true</genericAmmo>
+    <projectile>DMSM_Bullet_JusticeGavel</projectile>
+    <ammunition>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </ammunition>
+    <!-- 射程與射界相關 -->
+    <minRange>1</minRange>
+    <maxRange>60.9</maxRange>
+    <rotationSpeed>10</rotationSpeed>
+    <!-- 射擊相關 -->
+    <warmUpTimer>4</warmUpTimer>
+    <shotSound>DMS_Shot_MBTCannonSound</shotSound>
+    <reloadSound>DMS_Reload_MBTCannonSound</reloadSound>
+    <projectileOffset>5</projectileOffset>
+    <!-- 出膛前後偏移，主要是能讓子彈能從炮口飛出去 -->
+    <projectileShifting>
+      <li>0</li>
+    </projectileShifting>
+    <!-- 射擊模式 -->
+    <fireModes>
+      <li>
+        <shotsPerBurst>1</shotsPerBurst>
+        <ticksBetweenBursts>1</ticksBetweenBursts>
+        <forcedMissRadius>2</forcedMissRadius>
+        <label>Single Shot</label>
+        <texPath>UI/Gizmos/FireRate_Single</texPath>
+      </li>
+    </fireModes>
+    <motes>
+      <li>
+        <cycles>1</cycles>
+        <moteDef>Mote_CannonPlume</moteDef>
+        <animationType>Reset</animationType>
+        <offset>(0,0,5)</offset>
+      </li>
+    </motes>
+  </Vehicles.VehicleTurretDef>
+
+  <Vehicles.VehicleTurretDef ParentName="DMS_BaseKord">
+    <defName>DMS_Chelydridae_Kord</defName>
+    <label>heavy machinegun turret</label>
+    <!-- 砲塔的渲染顯示 -->
+    <gizmoIconTexPath>Things/Vehicles/Chelydridae/DMS_Gun_KordB</gizmoIconTexPath>
+    <graphicData>
+      <texPath>Things/Vehicles/Chelydridae/DMS_Gun_KordB</texPath>
+      <drawSize>3</drawSize>
+    </graphicData>
+  </Vehicles.VehicleTurretDef>
+  
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VehicleRaid RH2DOOMBountyHunters</name>
+  <author>konkonkitsune</author>
+  <packageId>konkonkitsune.VehicleRaidRH2DOOMBountyHunters</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>簡単な強化パッチ RH2DOOMBountyHunters用</description>
+  <modDependencies>
+    <li>
+      <packageId>gabrieel1482.raidvehicleframework</packageId> 
+      <displayName>VehicleRaid Framework</displayName>
+    </li>
+    <li>
+      <packageId>Aoba.DeadManSwitch.Motorized</packageId> 
+      <displayName>The Dead Man's Switch - Motorized</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>gabrieel1482.raidvehicleframework</li>
+    <li>Aoba.DeadManSwitch.Motorized</li>
+  </loadAfter>
+
+</ModMetaData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_RH2_DOOM_BountyHunters_VehicleRaid.label>装甲車両による侵略(RH2_DOOM_BountyHunters)</VRF_RH2_DOOM_BountyHunters_VehicleRaid.label>
+  <VRF_RH2_DOOM_BountyHunters_VehicleRaid.modExtensions.0.letterLabel>装甲車両による侵略</VRF_RH2_DOOM_BountyHunters_VehicleRaid.modExtensions.0.letterLabel>
+  <VRF_RH2_DOOM_BountyHunters_VehicleRaid.modExtensions.0.letterText>{0}から装甲車両と共に侵略してきた。車両は手あたり次第に破壊していく。</VRF_RH2_DOOM_BountyHunters_VehicleRaid.modExtensions.0.letterText >
+</LanguageData>
