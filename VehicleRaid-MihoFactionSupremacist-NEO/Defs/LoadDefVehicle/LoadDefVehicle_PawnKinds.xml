@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <PawnKindDef>
+    <defName>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC_Kind</defName>
+    <label>alligator snapper</label>
+    <race>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC</race>
+    <combatPower>15000</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Vehicles/Chelydridae/vehicle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>14</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
+

@@ -6,7 +6,7 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>簡単な強化パッチ RH2DOOMBountyHunters用</description>
+  <description>VehicleRaid RH2DOOMBountyHunters用 アリゲーターストッパー戦車追加Mod。</description>
   <modDependencies>
     <li>
       <packageId>gabrieel1482.raidvehicleframework</packageId> 
@@ -16,11 +16,16 @@
       <packageId>Aoba.DeadManSwitch.Motorized</packageId> 
       <displayName>The Dead Man's Switch - Motorized</displayName>
     </li>
+    <li>
+      <packageId>RH2.Faction.Bounty.Hunters</packageId> 
+      <displayName>[RH2] Faction: Bounty Hunters</displayName>
+    </li>
   </modDependencies>
 
   <loadAfter>
     <li>gabrieel1482.raidvehicleframework</li>
     <li>Aoba.DeadManSwitch.Motorized</li>
+    <li>RH2.Faction.Bounty.Hunters</li>
   </loadAfter>
 
 </ModMetaData>
