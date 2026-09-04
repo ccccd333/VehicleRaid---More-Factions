@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RaidStrategyDef>
-		<defName>VRF_Miho_Faction_Supremacist_NEO_VehicleAssault</defName>
+		<defName>VRF_Miho_Faction_Supremacist_CT_VehicleAssault</defName>
 		<workerClass>VehicleRaidFramework.RaidStrategyWorker_VehicleAssault</workerClass>
 		<label>Vehicle Assault</label>
 		<description>description.</description>
@@ -19,7 +19,7 @@
 		</pointsFactorCurve>
 		<arrivalTextFriendly>arrivalTextFriendly!</arrivalTextFriendly>
 		<arrivalTextEnemy>arrivalTextEnemy.</arrivalTextEnemy>
-		<letterLabelEnemy>Armored Assault(N.E.O)</letterLabelEnemy>
+		<letterLabelEnemy>Armored Assault(CupcakeTower)</letterLabelEnemy>
 		<arriveModes>
 			<li>EdgeWalkIn</li>
 		</arriveModes>
@@ -42,7 +42,7 @@
 				<letterText>letterText</letterText>
 				<vehicleOptions>
 					<li>
-						<kindDef>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC_Kind</kindDef>
+						<kindDef>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_CT_NPC_Kind</kindDef>
 						<weight>30</weight>
 						<forceCount>1</forceCount>
 						<spawnVehicle>true</spawnVehicle>

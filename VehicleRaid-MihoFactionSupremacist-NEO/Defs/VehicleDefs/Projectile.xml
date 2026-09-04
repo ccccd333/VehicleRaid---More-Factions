@@ -12,8 +12,8 @@
     </graphicData>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>350</damageAmountBase>
-      <armorPenetrationBase>1.48</armorPenetrationBase>
+      <damageAmountBase>450</damageAmountBase>
+      <armorPenetrationBase>1.68</armorPenetrationBase>
       <speed>120</speed>
       <explosionRadius>5.1</explosionRadius>
       <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>

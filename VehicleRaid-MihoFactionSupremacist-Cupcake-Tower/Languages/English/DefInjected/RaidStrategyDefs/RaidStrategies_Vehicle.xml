@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.label>Armored Vehicle Invasion (Mofufufufufu)</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.label>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.description>Protected by thicker armor than our own forces. Its rear is its weak point.</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.description>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterLabel>Invasion by Fluffy Tank (Cupcake)</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterLabel>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterText>{0} has sent the heavily modified tank "Cupcake" to invade. Defeating it will cause it to drop 2 antimatter rounds.</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterText>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextFriendly>{0}'s vehicle forces have arrived to support you!</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextFriendly>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextEnemy>{0} has sent the heavily modified tank "Cupcake" to invade. Defeating it will cause it to drop 2 antimatter rounds.</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextEnemy>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.letterLabelEnemy>Invasion by Fluffy Tank (Cupcake)</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.letterLabelEnemy>
+</LanguageData>

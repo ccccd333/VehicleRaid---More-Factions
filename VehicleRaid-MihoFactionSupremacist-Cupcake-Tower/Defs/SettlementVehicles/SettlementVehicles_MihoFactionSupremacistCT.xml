@@ -2,13 +2,13 @@
 <Defs>
 	<VehicleRaidFramework.VRF_SettlementVehicleDef>
 		<!-- You won't get lost here, it's almost the same as the incident notes  -->
-		<defName>Miho_Faction_Supremacist_NEO_SettlementVehicles</defName>
+		<defName>Miho_Faction_Supremacist_CT_SettlementVehicles</defName>
 		<faction>Miho_Faction_Supremacist</faction>
-		<totalCombatPoints>15000</totalCombatPoints>
+		<totalCombatPoints>10000</totalCombatPoints>
 		<!-- The narrator has points to buy your vehicles based on the combat power you set in loaddefvehicle  -->
 		<vehicles>
 			<li>
-				<vehicleKind>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC_Kind</vehicleKind>
+				<vehicleKind>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_CT_NPC_Kind</vehicleKind>
 				<!-- <forceCount>0</forceCount>  -->
 				<weight>30</weight>
 				<!--

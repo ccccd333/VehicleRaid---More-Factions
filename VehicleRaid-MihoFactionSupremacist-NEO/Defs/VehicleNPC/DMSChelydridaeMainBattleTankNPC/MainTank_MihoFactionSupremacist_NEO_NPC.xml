@@ -32,7 +32,7 @@
     <!-- 彈藥與裝填容量相關 -->
     <reloadTimer>6.5</reloadTimer>
     <magazineCapacity>5</magazineCapacity>
-    <chargePerAmmoCount>25</chargePerAmmoCount>
+    <chargePerAmmoCount>15</chargePerAmmoCount>
     <genericAmmo>true</genericAmmo>
     <projectile>DMS_Bullet_ChelydridaeShell</projectile>
     <ammunition>
@@ -101,8 +101,8 @@
     </graphics>
     <!-- 彈藥與裝填容量相關 -->
     <reloadTimer>10.5</reloadTimer>
-    <magazineCapacity>8</magazineCapacity>
-    <chargePerAmmoCount>50</chargePerAmmoCount>
+    <magazineCapacity>10</magazineCapacity>
+    <chargePerAmmoCount>25</chargePerAmmoCount>
     <genericAmmo>true</genericAmmo>
     <projectile>DMS_Bullet_ChelydridaeShell_VRF_NEO</projectile>
     <ammunition>

@@ -1,28 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<RaidStrategyDef>
-		<defName>VRF_Miho_Faction_Supremacist_NEO_VehicleAssault</defName>
-		<workerClass>VehicleRaidFramework.RaidStrategyWorker_VehicleAssault</workerClass>
-		<label>Vehicle Assault</label>
-		<description>description.</description>
-		<selectionWeightPerPointsCurve>
-			<points>
-				<li>(2000, 0)</li>
-				<li>(10000, 1.0)</li>
-				<li>(25000, 3.0)</li>
-			</points>
-		</selectionWeightPerPointsCurve>
-		<pointsFactorCurve>
-			<points>
-				<li>(0, 1.0)</li>
-			</points>
-		</pointsFactorCurve>
-		<arrivalTextFriendly>arrivalTextFriendly!</arrivalTextFriendly>
-		<arrivalTextEnemy>arrivalTextEnemy.</arrivalTextEnemy>
-		<letterLabelEnemy>Armored Assault(N.E.O)</letterLabelEnemy>
-		<arriveModes>
-			<li>EdgeWalkIn</li>
-		</arriveModes>
+	<IncidentDef>
+		<defName>VRF_Miho_Faction_Supremacist_CT_VehicleRaid</defName>
+		<label>armored vehicle CupcakeTowerraid</label>
+		<category>ThreatBig</category>
+		<workerClass>VehicleRaidFramework.IncidentWorker_VehicleRaid</workerClass>
+		<baseChance>2.0</baseChance>
+		<minThreatPoints>10000</minThreatPoints>
+		<minRefireDays>30</minRefireDays>
+		<letterDef>ThreatBig</letterDef>
+		<pointsScaleable>true</pointsScaleable>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
 		<modExtensions>
 			<li Class="VehicleRaidFramework.VehicleRaidExtension">
 				<factionDef>Miho_Faction_Supremacist</factionDef>
@@ -38,11 +28,11 @@
 					<li>Miho_Soldier_TacticalMagi</li>
 					<li>Miho_Soldier_MilitiaCaptain</li>
 				</forcedPawns>
-				<letterLabel>Armored Assault(N.E.O)!</letterLabel>
+				<letterLabel>Armored Assault(CupcakeTower)!</letterLabel>
 				<letterText>letterText</letterText>
 				<vehicleOptions>
 					<li>
-						<kindDef>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC_Kind</kindDef>
+						<kindDef>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_CT_NPC_Kind</kindDef>
 						<weight>30</weight>
 						<forceCount>1</forceCount>
 						<spawnVehicle>true</spawnVehicle>
@@ -77,5 +67,5 @@
 				</vehicleOptions>
 			</li>
 		</modExtensions>
-	</RaidStrategyDef>
+	</IncidentDef>
 </Defs>

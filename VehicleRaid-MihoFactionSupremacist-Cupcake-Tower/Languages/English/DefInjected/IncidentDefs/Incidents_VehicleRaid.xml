@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleRaid.label>Tank Invasion (Mofufufufufu)</VRF_Miho_Faction_Supremacist_CT_VehicleRaid.label>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleRaid.modExtensions.0.letterLabel>Invasion by Fluffy Tank (Cupcake)</VRF_Miho_Faction_Supremacist_CT_VehicleRaid.modExtensions.0.letterLabel>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleRaid.modExtensions.0.letterText>{0} has sent the heavily modified tank "Cupcake" to invade. Defeating it will cause it to drop 2 antimatter rounds. Yay!</VRF_Miho_Faction_Supremacist_CT_VehicleRaid.modExtensions.0.letterText>
+</LanguageData>

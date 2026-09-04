@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.label>装甲車両による侵略(もふふふふふ)</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.label>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.description>こちらの陣営よりも厚い装甲に守られている。背後が弱点だ。</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.description>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterLabel>もふもふ戦車（カップケーキ）による侵略</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterLabel>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterText>{0}から魔改造された戦車「カップケーキ」が侵略してきた。倒すと反物質弾を2個ドロップします。</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.modExtensions.0.letterText>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextFriendly>{0}の車両部隊があなたを支援するために到着しました！</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextFriendly>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextEnemy>{0}から魔改造された戦車「カップケーキ」が侵略してきた。倒すと反物質弾を2個ドロップします。</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.arrivalTextEnemy>
+  <VRF_Miho_Faction_Supremacist_CT_VehicleAssault.letterLabelEnemy>もふもふ戦車（カップケーキ）による侵略</VRF_Miho_Faction_Supremacist_CT_VehicleAssault.letterLabelEnemy>
+</LanguageData>

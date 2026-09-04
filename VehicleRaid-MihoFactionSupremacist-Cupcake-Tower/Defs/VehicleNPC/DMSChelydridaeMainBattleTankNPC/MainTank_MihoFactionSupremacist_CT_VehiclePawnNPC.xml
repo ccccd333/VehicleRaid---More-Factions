@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<Defs>	<!-- Here you can modify the vehicle that the raid will use. They simply grab the original vehicle and/or turret code. It's important that you change the vehicle's <defName>, and if you're going to modify the turret, also change it in </turretDef> which is below. -->
+<Defs>
+  <!-- Here you can modify the vehicle that the raid will use. They simply grab the original vehicle and/or turret code. It's important that you change the vehicle's <defName>, and if you're going to modify the turret, also change it in </turretDef> which is below. -->
   <Vehicles.VehicleDef ParentName="DMS_BaseVehicle">
-    <defName>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_NEO_NPC</defName>
-    <label>alligator snapper</label>
+    <defName>DMS_Chelydridae_MainBattleTank_Miho_Faction_Supremacist_CT_NPC</defName>
+    <label>Cupcake Tower Tank</label>
     <description>An automated main battle vehicle model currently in service in the colonial fleet are designed to theoretically conduct fully automatic combat. However, due to concerns about the battlefield communication environment, a space for two crew members was designed in the rear compartment.</description>
     <buildDef>DMS_Chelydridae_MainBattleTank_Blueprint</buildDef>
     <graphicData>
-      <texPath>Things/Vehicles/Chelydridae/vehicle</texPath>
+      <texPath>Things/Vehicles/Chelydridae/vehicleCT</texPath>
       <drawSize>14</drawSize>
     </graphicData>
     <size>(6,12)</size>
@@ -21,8 +21,8 @@
       <MarketValue>5240</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>6000</Mass>
-      <MoveSpeed>5</MoveSpeed>
+      <Mass>3500</Mass>
+      <MoveSpeed>3.5</MoveSpeed>
       <CargoCapacity>7000</CargoCapacity>
       <RepairRate>18.1</RepairRate>
     </vehicleStats>
@@ -72,44 +72,55 @@
       </vehicleJobLimitations>
       <roles>
         <li>
-          <key>gunnerLeft</key>
-          <label>gunner left</label>
+          <key>gunnerBase</key>
+          <label>gunner base</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
-            <li>mainTurretLeft</li>
+            <li>mainTurretBase</li>
           </turretIds>
         </li>
         <li>
-          <key>gunnerRight</key>
-          <label>gunner right</label>
+          <key>gunnerCT1</key>
+          <label>gunner ct1</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
-            <li>mainTurretRight</li>
+            <li>mainTurretCT1</li>
           </turretIds>
         </li>
         <li>
-          <key>gunnerMiddle</key>
-          <label>gunner middle</label>
+          <key>gunnerCT2</key>
+          <label>gunner ct2</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
-            <li>mainTurretMiddle</li>
+            <li>mainTurretCT2</li>
+          </turretIds>
+        </li>
+        <li>
+          <key>gunnerCT3</key>
+          <label>gunner ct3</label>
+          <slots>1</slots>
+          <slotsToOperate>1</slotsToOperate>
+          <handlingTypes>Turret</handlingTypes>
+          <turretIds>
+            <li>mainTurretCT3</li>
           </turretIds>
         </li>
       </roles>
     </properties>
     <components>
-      <li><!-- Internal mobile Part 內部驅動部件-->
+      <li>
+        <!-- Internal mobile Part 內部驅動部件-->
         <!--Engine
         100-->
         <key>Engine</key>
         <label>turbine engine</label>
-        <health>2000</health>
+        <health>1000</health>
         <efficiencyWeight>5</efficiencyWeight>
         <categories>
           <li>MoveSpeed</li>
@@ -126,7 +137,7 @@
         <!-- fuel tank 100-->
         <key>FuelTank</key>
         <label>armoured fuel tank</label>
-        <health>1200</health>
+        <health>800</health>
         <depth>Internal</depth>
         <reactors>
           <li Class="Vehicles.Reactor_Explosive">
@@ -151,7 +162,7 @@
         <!-- Gearbox 50-->
         <key>Gearbox</key>
         <label>gearbox</label>
-        <health>2500</health>
+        <health>1250</health>
         <depth>Internal</depth>
         <categories>
           <li>MoveSpeed</li>
@@ -238,7 +249,7 @@
         <!-- LeftRoadWheels 100-->
         <key>LeftRoadWheels</key>
         <label>left road wheels</label>
-        <health>2625</health>
+        <health>1825</health>
         <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
@@ -259,7 +270,7 @@
         <!-- RightRoadWheels 100-->
         <key>RightRoadWheels</key>
         <label>right road wheels</label>
-        <health>2625</health>
+        <health>1825</health>
         <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
@@ -318,7 +329,7 @@
         <!-- LeftTensionerWheel 75-->
         <key>LeftTensionerWheel</key>
         <label>left tensioner wheel</label>
-        <health>2500</health>
+        <health>1250</health>
         <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
@@ -337,7 +348,7 @@
         <!-- RightTensionerWheel 75-->
         <key>RightTensionerWheel</key>
         <label>right tensioner wheel</label>
-        <health>2500</health>
+        <health>1250</health>
         <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
@@ -357,7 +368,7 @@
         <!-- FrontArmorPlating 200-->
         <key>FrontArmorPlating</key>
         <label>front armor Plating</label>
-        <health>16250</health>
+        <health>8250</health>
         <depth>External</depth>
         <hitWeight>8</hitWeight>
         <armor>
@@ -372,7 +383,7 @@
         <!-- LeftArmorPlating 180-->
         <key>LeftArmorPlating</key>
         <label>left armor plating</label>
-        <health>9750</health>
+        <health>5750</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
         <armor>
@@ -387,7 +398,7 @@
         <!-- RightArmorPlating 180-->
         <key>RightArmorPlating</key>
         <label>right armor plating</label>
-        <health>9750</health>
+        <health>6750</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
         <armor>
@@ -402,7 +413,7 @@
         <!-- LeftERAPlating 100-->
         <key>LeftERAPlating</key>
         <label>left ERA plating</label>
-        <health>10000</health>
+        <health>6000</health>
         <depth>External</depth>
         <hitWeight>10</hitWeight>
         <armor>
@@ -417,7 +428,7 @@
         <!-- RightERAPlating 100-->
         <key>RightERAPlating</key>
         <label>right ERA plating</label>
-        <health>10000</health>
+        <health>6000</health>
         <depth>External</depth>
         <hitWeight>10</hitWeight>
         <armor>
@@ -432,7 +443,7 @@
         <!-- RoofArmorPlating 150 -->
         <key>RoofArmorPlating</key>
         <label>roof armor plating</label>
-        <health>10000</health>
+        <health>6000</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
         <armor>
@@ -444,7 +455,7 @@
         <!-- BackArmorPlating 150-->
         <key>BackArmorPlating</key>
         <label>rear armor plating</label>
-        <health>6625</health>
+        <health>4625</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
         <hitbox>
@@ -455,7 +466,7 @@
         <!-- mainTurret 250-->
         <key>MainTurret</key>
         <label>Main Turret</label>
-        <health>9250</health>
+        <health>4250</health>
         <depth>External</depth>
         <hitWeight>6</hitWeight>
         <armor>
@@ -480,7 +491,7 @@
         <!-- FrontERAPlating 75-->
         <key>FrontERAPlating</key>
         <label>front ERA Plating</label>
-        <health>15000</health>
+        <health>8000</health>
         <depth>External</depth>
         <hitWeight>15</hitWeight>
         <armor>
@@ -495,7 +506,7 @@
         <!-- TurretERAPlating 75 -->
         <key>TurretERAPlating</key>
         <label>turret ERA plating</label>
-        <health>8000</health>
+        <health>4000</health>
         <depth>External</depth>
         <hitWeight>15</hitWeight>
         <armor>
@@ -535,47 +546,57 @@
         <!-- 砲塔 -->
         <turrets>
           <li>
-            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_NEO_NPC_Turret</turretDef>
+            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret</turretDef>
             <renderProperties>
-              <north>(-1.8, 1.8)</north>
-              <south>(1.8, -1.8)</south>
-              <east>(1.8, 1.8)</east>
-              <west>(-1.8, -1.8)</west>
-            </renderProperties>
-            <gizmoLabel>Main Turret L</gizmoLabel>
-            <aimPieOffset>(0, 3.35)</aimPieOffset>
-            <drawLayer>2</drawLayer>
-            <key>mainTurretLeft</key>
-          </li>
-
-          <li>
-            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_NEO_NPC_Turret</turretDef>
-            <renderProperties>
-              <north>(1.8, 1.8)</north>
-              <south>(-1.8, -1.8)</south>
-              <east>(1.8, -1.8)</east>
-              <west>(-1.8, 1.8)</west>
-            </renderProperties>
-            <gizmoLabel>Main Turret R</gizmoLabel>
-            <aimPieOffset>(0, 3.35)</aimPieOffset>
-            <drawLayer>2</drawLayer>
-            <key>mainTurretRight</key>
-          </li>
-
-          <li>
-            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_NEO_NPC_TurretB</turretDef>
-            <renderProperties>
-              <north>(0.0, 0.9)</north>
-              <south>(-0.0, -0.9)</south>
-              <east>(0.9, 0.9)</east>
-              <west>(-0.9, 0.9)</west>
+              <north>(0.0, -0.4)</north>
+              <south>(-0.0, 0.4)</south>
+              <east>(0.0, 0.6)</east>
+              <west>(-0.0, 0.6)</west>
             </renderProperties>
             <gizmoLabel>Main Turret M</gizmoLabel>
             <aimPieOffset>(0, 3.35)</aimPieOffset>
-            <drawLayer>3</drawLayer>
-            <key>mainTurretMiddle</key>
+            <drawLayer>2</drawLayer>
+            <key>mainTurretBase</key>
           </li>
-
+          <li>
+            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1</turretDef>
+            <renderProperties>
+              <north>(0.0, -0.4)</north>
+              <south>(-0.0, 0.4)</south>
+              <east>(0.0, 0.6)</east>
+              <west>(-0.0, 0.6)</west>
+            </renderProperties>
+            <gizmoLabel>Main Turret CT1</gizmoLabel>
+            <aimPieOffset>(0, 3.35)</aimPieOffset>
+            <drawLayer>3</drawLayer>
+            <key>mainTurretCT1</key>
+          </li>
+          <li>
+            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2</turretDef>
+            <renderProperties>
+              <north>(0.0, -0.4)</north>
+              <south>(-0.0, 0.4)</south>
+              <east>(0.0, 0.6)</east>
+              <west>(-0.0, 0.6)</west>
+            </renderProperties>
+            <gizmoLabel>Main Turret CT2</gizmoLabel>
+            <aimPieOffset>(0, 3.35)</aimPieOffset>
+            <drawLayer>4</drawLayer>
+            <key>mainTurretCT2</key>
+          </li>
+          <li>
+            <turretDef>Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3</turretDef>
+            <renderProperties>
+              <north>(0.0, -0.4)</north>
+              <south>(-0.0, 0.4)</south>
+              <east>(0.0, 0.6)</east>
+              <west>(-0.0, 0.6)</west>
+            </renderProperties>
+            <gizmoLabel>Main Turret CT3</gizmoLabel>
+            <aimPieOffset>(0, 3.35)</aimPieOffset>
+            <drawLayer>5</drawLayer>
+            <key>mainTurretCT3</key>
+          </li>
           <li>
             <!--車頂機槍-->
             <turretDef>DMS_Okhotnik_Turret</turretDef>
@@ -590,7 +611,7 @@
             <aimPieOffset>(0, 0)</aimPieOffset>
             <key>topMG</key>
             <drawLayer>2</drawLayer>
-            <parentKey>mainTurretLeft</parentKey>
+            <parentKey>mainTurretBase</parentKey>
           </li>
           <li>
             <!--同軸機槍-->
@@ -606,7 +627,7 @@
             <aimPieOffset>(0, 0)</aimPieOffset>
             <key>coaxialMG</key>
             <drawLayer>2</drawLayer>
-            <parentKey>mainTurretLeft</parentKey>
+            <parentKey>mainTurretBase</parentKey>
           </li>
           <li>
             <!--車尾遙控機槍-->
@@ -624,7 +645,6 @@
             <key>MG</key>
             <drawLayer>1</drawLayer>
           </li>
-
           <li>
             <turretDef>DMS_GrenadeLauncher</turretDef>
             <gizmoLabel>Grenade Launcher</gizmoLabel>
@@ -642,5 +662,4 @@
       </li>
     </comps>
   </Vehicles.VehicleDef>
-
 </Defs>

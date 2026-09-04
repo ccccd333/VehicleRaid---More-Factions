@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.label>カップケーキ主砲</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.gizmoDescription>目標を選択。200mm反物質砲弾。</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.gizmoDescription>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.fireModes.0.label>単発射撃</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_Turret.fireModes.0.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.label>カップケーキ副砲</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.gizmoDescription>目標を選択。150mm反物質砲弾。</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.gizmoDescription>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.fireModes.0.label>単発射撃</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT1.fireModes.0.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.label>カップケーキ GAU-8/A 1</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.gizmoDescription>目標を選択。30×173 mmを連射。</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.gizmoDescription>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.fireModes.0.label>連射</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT2.fireModes.0.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.label>カップケーキ GAU-8/A 2</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.label>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.gizmoDescription>目標を選択。30×173 mmを連射。</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.gizmoDescription>
+  <Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.fireModes.0.label>連射</Chelydridae_Tank_Miho_Faction_Supremacist_CT_NPC_CT3.fireModes.0.label>
+</LanguageData>

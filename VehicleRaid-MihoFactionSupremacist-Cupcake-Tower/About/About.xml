@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VehicleRaid MihoFactionSupremacist Cupcake tower</name>
+  <author>konkonkitsune</author>
+  <packageId>konkonkitsune.VehicleRaidMihoFactionSupremacistCupcakeTower</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>VehicleRaid Miho至上主義軍団 戦車 Cupcake tower追加Mod。正直バランス取れてないです。正面装甲だけでHP8000とかあるのでOP環境用と言った感じです。</description>
+  <modDependencies>
+    <li>
+      <packageId>gabrieel1482.raidvehicleframework</packageId> 
+      <displayName>VehicleRaid Framework</displayName>
+    </li>
+    <li>
+      <packageId>Aoba.DeadManSwitch.Motorized</packageId> 
+      <displayName>The Dead Man's Switch - Motorized</displayName>
+    </li>
+    <li>
+      <packageId>miho.fortifiedoutremer</packageId> 
+      <displayName>Miho, the celestial fox</displayName>
+    </li>
+  </modDependencies>
+
+  <loadAfter>
+    <li>gabrieel1482.raidvehicleframework</li>
+    <li>Aoba.DeadManSwitch.Motorized</li>
+    <li>miho.fortifiedoutremer</li>
+  </loadAfter>
+
+</ModMetaData>

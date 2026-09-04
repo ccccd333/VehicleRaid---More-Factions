@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.label>Armored Vehicle Invasion (Mofufufufufu)</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.label>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.description>Protected by thicker armor than our own forces. Its rear is its weak point.</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.description>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.modExtensions.0.letterLabel>Invasion by Fluffy Tank (N.E.O.)</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.modExtensions.0.letterLabel>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.modExtensions.0.letterText>{0} has sent a heavily modified tank, N.E.O., which has been enhanced by the sheer strength of the surrounding region being way too powerful and some posthumous determination. Defeating it will cause it to drop 2 antimatter rounds.</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.modExtensions.0.letterText>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.arrivalTextFriendly>{0}'s vehicle forces have arrived to support you!</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.arrivalTextFriendly>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.arrivalTextEnemy>{0} has sent a heavily modified tank, N.E.O., which has been enhanced by the sheer strength of the surrounding region being way too powerful and some posthumous determination. Defeating it will cause it to drop 2 antimatter rounds.</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.arrivalTextEnemy>
+  <VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.letterLabelEnemy>Invasion by Fluffy Tank (N.E.O.)</VRF_Miho_Faction_Supremacist_NEO_VehicleAssault.letterLabelEnemy>
+</LanguageData>
